@@ -22,7 +22,7 @@ btn.textContent = "Add Size"
 btn.addEventListener("click", () => {
     let num;
     do {
-        num = parseInt(prompt("enter a number:", "16"));
+        num = parseInt(prompt("enter a number less than 100:", "16"));
         console.log("hi")
     } while(num >= 100)
     const grids = document.querySelectorAll(".grid");
